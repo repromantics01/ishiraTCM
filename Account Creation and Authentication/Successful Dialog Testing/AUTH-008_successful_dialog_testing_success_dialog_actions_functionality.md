@@ -1,19 +1,24 @@
-## **AUTH-008:** Successful Dialog testing - Success Dialog Actions Functionality  
+## **AUTH-008:** Success Dialog testing - Success Dialog Actions Functionality  
 
 > **Summary:** Verify that success dialog actions (dismiss, continue, etc.) function correctly when interacted with  <br>
 
-**Preconditions:** _None_  
+**Preconditions:** Success dialog is displayed after an operation
 
-Scenario 1 
+Scenario 1: Continue to login from success dialog
 
  | \# | Step | Expected Behavior | 
  |----|------|-------------------| 
- |  1 |      | Verify that ...   | 
- |  2 |      | Verify that ...   | 
- |  3 |      | Verify that ...   |  
+ |  1 | View the success dialog after registration | Success dialog is displayed with "Continue to Login" button | 
+ |  2 | Tap the "Continue to Login" button | A smooth transition animation plays and user is redirected to the login screen | 
+
+Scenario 2: Testing success dialog on different screen sizes
+
+ | \# | Step | Expected Behavior | 
+ |----|------|-------------------| 
+ |  1 | Run the app on a small screen device (e.g., iPhone SE) | Success dialog renders correctly with all elements visible and properly sized | 
+ |  2 | Run the app on a large screen device (e.g., tablet) | Success dialog renders correctly with proper scaling of elements | 
 
 **Post-conditions:**  
 
- - x  
- - y  
- - z  
+ - User can navigate from success dialog to the appropriate next screen
+ - Dialog displays correctly across different device sizes
