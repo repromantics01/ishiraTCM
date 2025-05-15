@@ -1,0 +1,186 @@
+Test Cases,TEST CASE ID,Sample Summary
+Account Creation and Authentication,,
+  Sign up Testing,,
+    Organization/Moderator ,,
+      Sign up testing - Organization Signup Flow with Valid Data,REG-001,Verify that organization signup flow completes successfully with valid data
+      Sign up testing - Organization Signup Field Validation,REG-002,Verify that organization signup fields validate input correctly and show appropriate error messages
+      Sign up testing - Organization Verification Document Upload,REG-003,Verify that organization verification documents can be uploaded and stored correctly
+    User Testing,,
+      Sign up testing - Individual User Signup Flow with Valid Data,REG-004,Verify that individual user signup flow completes successfully with valid data
+      Sign up testing - Individual User Signup Field Validation,REG-005,Verify that individual user signup fields validate input correctly and show appropriate error messages
+      Sign up testing - User Profile Creation During Signup,REG-006,Verify that user profile is created correctly during the signup process with default values
+  Login Testing,,
+   Login testing - Login with Valid Credentials,AUTH-001,Verify that users can log in successfully with valid credentials
+   Login testing - Login with Invalid Credentials,AUTH-002,Verify that login fails appropriately with invalid credentials and shows proper error messages
+   Login testing - Login Persistence Across App Restarts,AUTH-003,Verify that login session persists across app restarts and maintains authentication state
+  Forgot Password Testing,,
+   Forgot Password testing - Password Reset Flow,AUTH-004,Verify that password reset flow works correctly from request to confirmation
+   Forgot Password testing - Password Reset Email Delivery,AUTH-005,Verify that password reset email is delivered to the correct email address with valid reset link
+   Forgot Password testing - Setting a New Password After Reset,AUTH-006,Verify that users can set a new password after clicking the reset link and the new password works for login
+  Successful Dialog Testing,,
+   Successful Dialog testing - Success Dialog Display After Operations,AUTH-007,Verify that success dialog appears after operations complete successfully with the correct message
+   Successful Dialog testing - Success Dialog Actions Functionality,AUTH-008,"Verify that success dialog actions (dismiss, continue, etc.) function correctly when interacted with"
+Access to Relevant Information,,
+  Organization Testing,,
+   Organization testing - Organization Profile Information Display,ACCESS-001,Verify that organization profile information displays correctly and completely on profile page
+   Organization testing - Organization Photos and Logo Display,ACCESS-002,Verify that organization photos and logo display correctly with proper formatting and layout
+   Organization testing - Organization Contact Information Functionality,ACCESS-003,"Verify that organization contact information functions correctly when interacted with (email links, phone links)"
+  Pet Testing,,
+   Pet testing - Pet Profile Information Display,ACCESS-004,Verify that pet profile information displays correctly and completely on profile page
+   Pet testing - Pet Photo Carousel Functionality,ACCESS-005,Verify that pet photo carousel functions correctly with proper navigation between photos
+   Pet testing - Pet Health Information Display,ACCESS-006,Verify that pet health information displays correctly with appropriate formatting and details
+  User Testing,,
+   User testing -  User Profile Information Display,ACCESS-007,Verify that user profile information displays correctly and completely on profile page
+   User testing - User Profile Photo Display and Update,ACCESS-008,Verify that user profile photo displays correctly and can be updated through the interface
+Account and Profile Management,,
+  Display User Settings,,
+   Display User testing - User Settings Display,SETTINGS-001 ,Verify that user settings display correctly with all options visible and properly grouped
+   Display User testing - Settings Menu Navigation,SETTINGS-002,Verify that settings menu navigation works correctly between different settings sections
+  Edit Account DetailsTesting,,
+   Edit Account testing - Password Update Functionality,SETTINGS-003 ,Verify that password update functionality works correctly with validation and confirmation
+   Edit Account testing - Email Update with Verification,SETTINGS-004,"Verify that email update with verification works correctly, including verification email delivery"
+   Edit Account testing - Account Deletion Process,SETTINGS-005,Verify that account deletion process works correctly with proper confirmation and data removal
+  Edit Profile Details Testing,,
+   Edit Profile testing - Personal Information Update,SETTINGS-006 ,Verify that personal information update works correctly and saves changes to the database
+   Edit Profile testing -  User Profile Information Display,SETTINGS-007,Verify that user profile information displays correctly after updates are made
+In-App Messaging,,
+  Inbox Testing,,
+   Inbox testing - Message Threads Display,MSG-001,Verify that message threads display correctly with proper sender information and timestamps
+   Inbox testing - Thread Navigation and Management,MSG-002,"Verify that thread navigation and management functions correctly when selecting, deleting, or marking threads"
+  Chat Testing,,
+   Chat testing - Message Sending Functionality,MSG-003,Verify that message sending functionality works correctly with text appearing in the conversation
+   Chat testing - Real-Time Message Receiving,MSG-004,Verify that real-time message receiving works correctly when another user sends a message
+   Chat testing - Chat History Loading,MSG-005,Verify that chat history loads correctly with proper pagination and historical messages
+Pet Adoption,,
+  Dashboard Testing,,
+   Dashboard testing - Adopter Dashboard UI Elements,ADOPT-001,Verify that adopter dashboard UI elements display correctly and are properly positioned
+   Dashboard testing - Adopter Dashboard Navigation,ADOPT-002,Verify that adopter dashboard navigation correctly directs user to intended features
+  Swipe Testing,,
+   Swipe testing - Swipe Left/Right Functionality,ADOPT-003,Verify that swipe left/right functionality works correctly to like or reject pets
+   Swipe testing - Pet Filtering Effects,ADOPT-004,Verify that pet filtering affects which pets are shown in the swipe interface
+   Swipe testing - Pet Information Display on Swipe,ADOPT-005,Verify that pet information displays correctly on swipe cards with proper formatting
+  Swiped Pets Testing,,
+   Swiped Pets testing - Swiped Pets List Display,ADOPT-006,Verify that swiped pets list displays correctly with all liked pets
+   Swiped Pets testing - Swiped Pet Actions,ADOPT-007,"Verify that swiped pet actions function correctly (view details, request adoption)"
+   Swiped Pets testing - Swiped Pets Detailed View,ADOPT-008,Verify that swiped pets detailed view shows complete pet information
+   Swiped Pets testing - Request Adoption,ADOPT-009,Verify that request adoption functionality works correctly from swiped pets list
+  View Adoptions Testing,,
+   View Adoptions testing - Adoption Applications List,ADOPT-010,Verify that adoption applications list displays correctly with status indicators
+   View Adoptions testing - Adoption Status Updates,ADOPT-011,Verify that adoption status updates are reflected correctly on the adoption applications list
+Pet Surrendering,,
+  Dashboard Testing,,
+   Dashboard testing - Surrenderer Dashboard UI Elements,SURR-001,Verify that surrenderer dashboard UI elements display correctly and are properly positioned
+   Dashboard testing - Surrenderer Dashboard Navigation,SURR-002,Verify that surrenderer dashboard navigation correctly directs user to intended features
+  Organizations List Testing,,
+   Organizations List testing - Organizations List Display,SURR-003,Verify that organizations list displays correctly with proper organization information
+   Organizations List testing - Organization Search Functionality,SURR-004,Verify that organization search functionality returns correct results based on search criteria
+   Organizations List testing - Organization Details View,SURR-005,Verify that organization details view shows complete organization information
+  Surrender Pet Testing,,
+   Surrender Pet testing - Surrender Form Validation,SURR-006,Verify that surrender form validation correctly identifies and displays form errors
+   Surrender Pet testing - Surrender Form Submission,SURR-007,Verify that surrender form submission works correctly and creates a surrender request
+   Surrender Pet testing - Pet Photo Upload for Surrenders,SURR-008,Verify that pet photo upload for surrenders works correctly and attaches photos to the surrender request
+  Surrender History Testing,,
+   Surrender History testing - Surrender History List,SURR-0010,Verify that surrender history list displays correctly with all past surrender requests
+   Surrender History testing - Surrendered Pet Details,SURR-0011,Verify that surrendered pet details show complete information about the surrender request
+Organization Monitoring,,
+  Verification Requests Testing,,
+   Verification Requests testing - Verification Requests List,VERIF-001,Verify that verification requests list displays correctly with all pending organization verification requests
+   Verification Requests testing - Verification Request Details View,VERIF-002,Verify that verification request details view shows all necessary information for verification decisions
+  Verified Accounts Testing,,
+   Verified Accounts testing - Approved Organizations List,VERIF-003,Verify that approved organizations list displays correctly with all verified organizations
+   Verified Accounts testing - Organization Filtering and Searching,VERIF-004,Verify that organization filtering and searching works correctly to find specific organizations
+   Verified Accounts testing - Organization Status Change,VERIF-005,Verify that organization status can be changed correctly by moderators with proper confirmation
+Organization Details,,
+   Organization Details testing - Organization Details View for Moderators,VERIF-006,Verify that organization details view for moderators displays complete information with appropriate actions
+Pet and Application Management,,
+  Dashboard Testing,,
+   Dashboard testing - Organization Dashboard UI Elements,ORGMGMT-001,Verify that organization dashboard UI elements display correctly and are properly positioned
+   Dashboard testing - Dashboard Statistics Display and Accuracy,ORGMGMT-002,Verify that dashboard statistics display correctly with accurate data from the database
+   Dashboard testing - Dashboard Sidebar Navigation Flow,ORGMGMT-003,Verify that dashboard navigation correctly directs user to intended features
+  Adoption Requests List Testing,,
+   Adoption Requests List testing - Adoption Requests List,ORGMGMT-004,Verify that adoption requests list displays correctly with proper request information
+   Adoption Requests List testing - Adoption Request Details View,ORGMGMT-005,Verify that adoption request details view shows complete applicant and request information
+   Adoption Requests List testing - Adoption Approval Process,ORGMGMT-006,Verify that adoption approval process works correctly with proper status updates 
+   Adoption Requests List testing - Adoption Rejection Process,ORGMGMT-007,Verify that adoption rejection process works correctly with proper status updates
+  Surrender Requests Testing,,
+   Surrender Requests testing - Surrender Requests List,ORGMGMT-008,Verify that surrender requests list displays correctly with proper request information
+   Surrender Requests testing - Surrender Request Details View,ORGMGMT-009,Verify that surrender request details view shows complete surrenderer and pet information
+   Surrender Requests testing - Surrender Approval Process,ORGMGMT-010,Verify that surrender approval process works correctly with proper status updates and notifications
+   Surrender Requests testing - Surrender Rejection Process,ORGMGMT-011,Verify that surrender rejection process works correctly with proper status updates and notifications
+  Manage Pets Testing,,
+   Manage Pets testing - Pets List with Filtering Options,ORGMGMT-012,Verify that pets list with filtering options displays correctly with proper pet information
+   Manage Pets testing - New Pet Addition,ORGMGMT-013,Verify that new pet addition works correctly and creates a pet record with proper validation
+   Manage Pets testing - Pet Information Editing,ORGMGMT-014,Verify that pet information editing works correctly and updates pet details in the database
+   Manage Pets testing - Pet Status Update Functionality,ORGMGMT-015,Verify that pet status update functionality works correctly with proper status transitions
+UI Testing,,
+    Homepage testing,UI-001,"Verify that icons, texts, and other elements are displayed properly."
+    Authentication testing,UI-002,"Verify that icons, texts, and other elements are displayed properly."
+    Profile and Account testing,UI-003,"Verify that icons, texts, and other elements are displayed properly."
+    Adopter Dashboard testing,UI-004,"Verify that icons, texts, and other elements are displayed properly."
+    Surrenderer Dashboard testing,UI-005,"Verify that icons, texts, and other elements are displayed properly."
+    Organization Dashboard testing,UI-006,"Verify that icons, texts, and other elements are displayed properly."
+    Messaging testing,UI-007,"Verify that icons, texts, and other elements are displayed properly."
+    Settings testing,UI-008,"Verify that icons, texts, and other elements are displayed properly."
+Platform Compatibility,,
+   Android testing,COMP-001,Verify that the application functions correctly on Android devices with proper layout and functionality
+   Website testing,COMP-002,Verify that the website functions correctly across different browsers with proper layout and functionality
+Security Testing,,
+  Authentication Testing,,
+    Authentication testing - Sign Up with Email/Password (User),SEC-001,Verify that sign up with email/password works securely for users with proper validation
+    Authentication testing - Sign Up with Email/Password (Organization),SEC-002,Verify that sign up with email/password works securely for organizations with proper validation
+    Authentication testing - Log in with Email/Password,SEC-003,Verify that log in with email/password works securely with proper credential validation
+    Authentication testing - Forgot Password,SEC-004,Verify that forgot password functionality works securely with proper verification
+    Authentication testing - Verify Number,SEC-005,Verify that number verification works correctly for additional account security
+    Authentication testing - Account Lockout,SEC-006,Verify that account lockout triggers correctly after multiple failed login attempts
+    Authentication testing -Session Management,SEC-007,Verify that session management handles timeouts and token refreshes correctly
+  Penetration Testing,,
+    Web App Testing,,
+      Authentication testing,SEC-008,Verify that authentication mechanisms are secure against common web vulnerabilities
+      Organization Admin Access Controls ,SEC-009,Verify that organization admin access controls prevent unauthorized access to administrative functions
+      Moderator Access Controls,SEC-010,Verify that moderator access controls prevent unauthorized access to moderation functions
+      User Role Separation,SEC-011,Verify that user role separation functions correctly to limit access based on assigned roles
+      Pet Profile Access Controls,SEC-012,Verify that pet profile access controls prevent unauthorized modification of pet data
+      Organization Profile Access Controls,SEC-013,Verify that organization profile access controls prevent unauthorized modification of organization data
+      User Profile Access Controls,SEC-014,Verify that user profile access controls prevent unauthorized access to user information
+      Adoption Request Access Controls,SEC-015,Verify that adoption request access controls prevent unauthorized access to adoption requests
+      Surrender Request Access Controls,SEC-016,Verify that surrender request access controls prevent unauthorized access to surrender requests
+      Message Thread Access Controls,SEC-017,Verify that message thread access controls prevent unauthorized access to private conversations
+      Photo Storage Access Controls,SEC-018,Verify that photo storage access controls prevent unauthorized access to uploaded images
+      Settings testing,SEC-019,Verify that settings access controls prevent unauthorized changes to user settings
+    Mobile App Testing,,
+      Authentication testing,SEC-0023,Verify that mobile authentication mechanisms are secure against common mobile vulnerabilities
+      Adopter Role Access Controls,SEC-0024,Verify that adopter role access controls work correctly on mobile to limit appropriate access
+      Surrenderer Role Access Controls,SEC-0025,Verify that surrenderer role access controls work correctly on mobile to limit appropriate access
+      Pet Profile Access on Mobile,SEC-0026,Verify that pet profile access on mobile prevents unauthorized data modification
+      Adoption Request Handling,SEC-0027,Verify that adoption request handling on mobile is secure with proper authentication
+      Surrender Request Handling,SEC-0028,Verify that surrender request handling on mobile is secure with proper authentication
+      Messaging Security on Mobile,SEC-0029,Verify that messaging security on mobile prevents unauthorized access to conversations
+      Photo Upload Security,SEC-0030,Verify that photo upload security on mobile handles files securely with proper permissions
+Performance Testing,,
+    Web App Performance,,
+      Performance testing - Organization Dashboard Loading,PERF-001,Verify that organization dashboard loads within acceptable time limits with proper optimization
+      Performance testing - Pet Listing Page,PERF-002,Verify that pet listing page loads efficiently with pagination and lazy loading
+      Performance testing - Verification Request Processing,PERF-003,Verify that verification request processing performs efficiently without significant delays
+      Performance testing - Maximum Concurrent Users,PERF-004,Verify that the system handles maximum concurrent users without performance degradation
+      Performance testing - Large Organization Data,PERF-005,Verify that large organization data loads efficiently with proper data handling
+      Performance testing - Large Pet Catalog,PERF-006,Verify that large pet catalog loads efficiently with proper pagination and filtering
+      Performance testing - Image Loading Performance,PERF-007,Verify that image loading performance meets requirements for quick display
+      Performance testing - Chat History Loading,PERF-008,Verify that chat history loading performs efficiently with pagination and lazy loading
+      Performance testing - Accessible Document,PERF-009,Verify that document is accessible for authorized users
+    Mobile App Performance,,
+      Performance testing - Swipe Interface Responsiveness,PERF-010,Verify that swipe interface responds quickly and smoothly without lag or stuttering
+      Performance testing - Pet Photo Carousel,PERF-011,Verify that pet photo carousel performs efficiently with proper image caching
+      Performance testing - Adopter Dashboard Loading,PERF-012,Verify that adopter dashboard loads efficiently on mobile devices with optimized assets
+      Performance testing - Surrenderer Dashboard Loading,PERF-013,Verify that surrenderer dashboard loads efficiently on mobile devices with optimized assets
+      Performance testing - Chat Message Sending,PERF-014,Verify that chat message sending performs efficiently with proper status indicators
+      Performance testing - Photo Upload Performance,PERF-015,Verify that photo upload performance meets requirements with proper compression
+      Performance testing - Pet Filter Performance,PERF-016,Verify that pet filter performance meets requirements with efficient query handling
+      Performance testing - Adoption History Loading,PERF-017,Verify that adoption history loading performs efficiently
+      Performance testing - Surrender History Loading,PERF-018,Verify that surrender history loading performs efficiently
+    Database Performance,,
+      Performance testing - Firestore Query Performance,PERF-019,Verify that Firestore query performance meets requirements for responsive data access
+      Performance testing - Supabase Query Performance,PERF-020,Verify that Supabase query performance meets requirements for responsive data access
+      Performance testing - Maximum Organization Records,PERF-021,Verify that the system handles maximum organization records without performance degradation
+      Performance testing - Maximum Pet Records,PERF-022,Verify that the system handles maximum pet records without performance degradation
+      Performance testing - Maximum User Records,PERF-023,Verify that the system handles maximum user records without performance degradation
+      Performance testing - Maximum Message Records,PERF-024,Verify that the system handles maximum message records without performance degradation
