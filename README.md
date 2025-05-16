@@ -68,7 +68,7 @@
 ### In-App Messaging
 * [Inbox Testing](./In-App%20Messaging/Inbox%20Testing)
   * [MSG-001: Inbox testing - Message Threads Display](./In-App%20Messaging/Inbox%20Testing/MSG-001_inbox_testing_message_threads_display.md)  
-  * [MSG-002: Inbox testing - Thread Navigation and Management](./In-App%20Messaging/Inbox%20Testing/MSG-002_inbox_testing_thread_navigation_and_management.md)  
+  * [MSG-002: Inbox testing - Thread Navigation](./In-App%20Messaging/Inbox%20Testing/MSG-002_inbox_testing_thread_navigation_and_management.md)  
 * [Chat Testing](./In-App%20Messaging/Chat%20Testing)
   * [MSG-003: Chat testing - Message Sending Functionality](./In-App%20Messaging/Chat%20Testing/MSG-003_chat_testing_message_sending_functionality.md)  
   * [MSG-004: Chat testing - Real-Time Message Receiving](./In-App%20Messaging/Chat%20Testing/MSG-004_chat_testing_real_time_message_receiving.md)  
@@ -115,8 +115,8 @@
   * [VERIF-003: Verified Accounts testing - Approved Organizations List](./Organization%20Monitoring/Verified%20Accounts%20Testing/VERIF-003_verified_accounts_testing_approved_organizations_list.md)  
   * [VERIF-004: Verified Accounts testing - Organization Filtering and Searching](./Organization%20Monitoring/Verified%20Accounts%20Testing/VERIF-004_verified_accounts_testing_organization_filtering_and_searching.md)  
   * [VERIF-005: Verified Accounts testing - Organization Status Change](./Organization%20Monitoring/Verified%20Accounts%20Testing/VERIF-005_verified_accounts_testing_organization_status_change.md)  
-* [Organization Details](./Organization%20Details)
-  * [VERIF-006: Organization Details testing - Organization Details View for Moderators](./Organization%20Details/VERIF-006_organization_details_testing_organization_details_view_for_moderators.md)  
+* [Organization Details](./Organization%20Monitoring/Organization%20Details)
+  * [VERIF-006: Organization Details testing - Organization Details View for Moderators](./Organization%20Monitoring/Organization%20Details/VERIF-006_organization_details_testing_organization_details_view_for_moderators.md)  
 
 ### Pet and Application Management
 * [Dashboard Testing](./Pet%20and%20Application%20Management/Dashboard%20Testing)

@@ -1,19 +1,20 @@
-## **MSG-002:** Inbox testing - Thread Navigation and Management  
+## **MSG-002:** Inbox testing - Thread Navigation  
 
-> **Summary:** Verify that thread navigation and management functions correctly when selecting, deleting, or marking threads  <br>
+> **Summary:** Verify that thread navigation functions correctly  <br>
 
-**Preconditions:** _None_  
+**Preconditions:**
+- User is logged in
+- User has at least 2 message threads
 
-Scenario 1 
+Scenario 1: Navigate to a conversation thread
 
- | \# | Step | Expected Behavior | 
+ | # | Step | Expected Behavior | 
  |----|------|-------------------| 
- |  1 |      | Verify that ...   | 
- |  2 |      | Verify that ...   | 
- |  3 |      | Verify that ...   |  
+ | 1 | Open the inbox page | All message threads are listed |
+ | 2 | Tap on a message thread | The selected conversation opens |
+ | 3 | Observe the conversation view | Messages are displayed in chronological order with sender information |
+ | 4 | Navigate back to inbox | The thread should be marked as read if it was previously unread |
 
-**Post-conditions:**  
-
- - x  
- - y  
- - z  
+**Post-conditions:**
+ - Thread navigation works smoothly
+ - Thread read status updates correctly in Firebase
