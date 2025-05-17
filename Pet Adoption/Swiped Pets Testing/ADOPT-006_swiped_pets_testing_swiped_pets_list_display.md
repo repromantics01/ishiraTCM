@@ -2,18 +2,28 @@
 
 > **Summary:** Verify that swiped pets list displays correctly with all liked pets  <br>
 
-**Preconditions:** _None_  
+**Preconditions:**
+- User is logged in as an adopter
+- User has liked at least 3 pets
 
-Scenario 1 
+Scenario 1: View swiped pets list
 
- | \# | Step | Expected Behavior | 
+ | # | Step | Expected Behavior | 
  |----|------|-------------------| 
- |  1 |      | Verify that ...   | 
- |  2 |      | Verify that ...   | 
- |  3 |      | Verify that ...   |  
+ | 1 | Navigate to Swiped Pets page | Page loads with grid of previously liked pets |
+ | 2 | Check pet information on cards | Each card shows pet image, name, breed, and age |
+ | 3 | Compare with Firebase data | All pets marked as liked in Firebase appear in the list |
+ | 4 | Pull to refresh the list | List refreshes and shows any newly liked pets |
 
-**Post-conditions:**  
+Scenario 2: Empty state handling
 
- - x  
- - y  
- - z  
+ | # | Step | Expected Behavior | 
+ |----|------|-------------------| 
+ | 1 | Create a new test user with no liked pets | No swiped pets exist for this user |
+ | 2 | Navigate to Swiped Pets page | Empty state UI appears with message and "Find Pets" button |
+ | 3 | Tap "Find Pets" button | Navigates to pet discovery interface |
+
+**Post-conditions:**
+ - Swiped pets list displays all liked pets correctly
+ - Pet information matches Firebase data
+ - Empty state is handled gracefully

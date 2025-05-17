@@ -2,18 +2,29 @@
 
 > **Summary:** Verify that adoption status updates are reflected correctly on the adoption applications list  <br>
 
-**Preconditions:** _None_  
+**Preconditions:**
+- User is logged in as an adopter with pending adoption requests
+- Admin/organization user has ability to update adoption status
 
-Scenario 1 
+Scenario 1: Status update reflection
 
- | \# | Step | Expected Behavior | 
+ | # | Step | Expected Behavior | 
  |----|------|-------------------| 
- |  1 |      | Verify that ...   | 
- |  2 |      | Verify that ...   | 
- |  3 |      | Verify that ...   |  
+ | 1 | Admin updates an adoption request status to "Approved" | Status is updated in Firebase |
+ | 2 | User navigates to "Your Adoptions" page | Page loads with updated status |
+ | 3 | Check the updated application | Status shows "Approved" with green color |
+ | 4 | Open detailed view of approved application | Details show approval date and next steps |
 
-**Post-conditions:**  
+Scenario 2: Approved adoption actions
 
- - x  
- - y  
- - z  
+ | # | Step | Expected Behavior | 
+ |----|------|-------------------| 
+ | 1 | Open details of an approved adoption | Details page opens with approved status |
+ | 2 | Check for "Message Organization" button | Button is visible for approved adoptions |
+ | 3 | Tap "Message Organization" button | Navigates to conversation with the organization |
+ | 4 | Send a message | Message is delivered to the organization |
+
+**Post-conditions:**
+ - Status updates are reflected correctly in the UI
+ - Appropriate actions are available based on status
+ - Communication channel opens for approved adoptions
