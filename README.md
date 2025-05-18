@@ -97,15 +97,15 @@
   * [SURR-002: Dashboard testing - Surrenderer Dashboard Navigation](./Pet%20Surrendering/Dashboard%20Testing/SURR-002_dashboard_testing_surrenderer_dashboard_navigation.md)  
 * [Organizations List Testing](./Pet%20Surrendering/Organizations%20List%20Testing)
   * [SURR-003: Organizations List testing - Organizations List Display](./Pet%20Surrendering/Organizations%20List%20Testing/SURR-003_organizations_list_testing_organizations_list_display.md)  
-  * [SURR-004: Organizations List testing - Organization Search Functionality](./Pet%20Surrendering/Organizations%20List%20Testing/SURR-004_organizations_list_testing_organization_search_functionality.md)  
+  * [SURR-004: Organizations List testing - Organization Search Functionality](./Pet%20Surrendering/Organizations%20List%20Testing/SURR-004_organizations_list_testing_organization_details_synchronization.md)  
   * [SURR-005: Organizations List testing - Organization Details View](./Pet%20Surrendering/Organizations%20List%20Testing/SURR-005_organizations_list_testing_organization_details_view.md)  
 * [Surrender Pet Testing](./Pet%20Surrendering/Surrender%20Pet%20Testing)
   * [SURR-006: Surrender Pet testing - Surrender Form Validation](./Pet%20Surrendering/Surrender%20Pet%20Testing/SURR-006_surrender_pet_testing_surrender_form_validation.md)  
   * [SURR-007: Surrender Pet testing - Surrender Form Submission](./Pet%20Surrendering/Surrender%20Pet%20Testing/SURR-007_surrender_pet_testing_surrender_form_submission.md)  
   * [SURR-008: Surrender Pet testing - Pet Photo Upload for Surrenders](./Pet%20Surrendering/Surrender%20Pet%20Testing/SURR-008_surrender_pet_testing_pet_photo_upload_for_surrenders.md)  
 * [Surrender History Testing](./Pet%20Surrendering/Surrender%20History%20Testing)
-  * [SURR-0010: Surrender History testing - Surrender History List](./Pet%20Surrendering/Surrender%20History%20Testing/SURR-0010_surrender_history_testing_surrender_history_list.md)  
-  * [SURR-0011: Surrender History testing - Surrendered Pet Details](./Pet%20Surrendering/Surrender%20History%20Testing/SURR-0011_surrender_history_testing_surrendered_pet_details.md)  
+  * [SURR-009: Surrender History testing - Surrender History List](./Pet%20Surrendering/Surrender%20History%20Testing/SURR-009_surrender_history_testing_surrender_history_list.md)  
+  * [SURR-010: Surrender History testing - Surrendered Pet Details](./Pet%20Surrendering/Surrender%20History%20Testing/SURR-010_surrender_history_testing_surrendered_pet_details.md)  
 
 ### Organization Monitoring
 * [Verification Requests Testing](./Organization%20Monitoring/Verification%20Requests%20Testing)
